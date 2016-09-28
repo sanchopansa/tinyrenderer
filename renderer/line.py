@@ -47,7 +47,7 @@ def get_line_coords(start, end):
 
 
 if __name__ == "__main__":
-    import Image
+    from PIL import Image
 
     RED = (255, 0, 0)
     WHITE = (255, 255, 255)
