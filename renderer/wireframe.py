@@ -1,6 +1,6 @@
 import itertools as it
 
-import renderer.lib.objreader as reader
+import renderer.lib.reader as reader
 
 
 def get_wireframe_coords(canvas_width, canvas_height, vertices, faces):
