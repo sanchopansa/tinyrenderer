@@ -40,7 +40,7 @@ if __name__ == "__main__":
     from PIL import Image
 
     vertices, _, _, faces = reader.read_obj(
-        "/home/sancho/src/tinyrenderer/renderer/african_head.obj")
+        "./renderer/input/african_head.obj")
     canvas = Image.new("RGB", (500, 500))
     for x, y in get_wireframe_coords(500, 500, vertices, faces):
         try:
