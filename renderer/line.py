@@ -3,10 +3,11 @@ def get_line_coords(start, end):
     Bresenham's line drawing algorithm.
     The implementations is symmetric, i.e. it returns the same sequence of
     coordinates for (start, end) and (end, start)
-        :param start: (x, y)-coordinate tuple of starting point
-        :param end: (x, y)-coordinate tuple of ending point
-        :returns: tuples of (x, y)-coordinates for the pixels representing the
-                  line
+
+    :param start: (x, y)-coordinate tuple of starting point
+    :param end: (x, y)-coordinate tuple of ending point
+    :returns: tuples of (x, y)-coordinates for the pixels representing the
+              line
     """
     coords = []
 
